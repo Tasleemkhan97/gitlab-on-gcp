@@ -1,0 +1,21 @@
+project_id = "my-gcp-project-id"
+region     = "me-central1"
+zone       = "me-central1-a"
+
+# Optional: provide existing network/subnet
+# network_self_link = "projects/my-project/global/networks/my-vpc"
+# subnet_self_link  = "projects/my-project/regions/me-central1/subnetworks/my-subnet"
+# subnet_cidr       = "10.0.0.0/24"
+
+# Optional: custom GitLab URL (defaults to http://<internal_ip>)
+# gitlab_external_url = "http://gitlab.internal.example.com"
+
+# GitLab runner authentication token (glrt-*).
+# Create the runner in GitLab Admin > CI/CD > Runners first, then paste the token here.
+gitlab_runner_token = "glrt-CHANGE_ME"
+
+# Optional: override machine type
+# machine_type = "e2-standard-8"
+
+# Optional: backup retention in days (default 30)
+# backup_retention_days = 30
